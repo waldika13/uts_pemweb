@@ -1,16 +1,19 @@
 <?php 
 
-$server = "localhost";
-$username = "root";
-$password = "";
-$database = "portfolio";
+$namaServer = "remotemysql.com";
+$username = "3amzmAEgGC";
+$password = "Dm1100ZUkT";
+$database = "3amzmAEgGC";
 
+//Membuat koneksi
 
-$koneksi = mysqli_connect($server, $username, $password, $database);
- 
-// Check connection
-if (mysqli_connect_errno()){
-	echo "Koneksi database gagal : " . mysqli_connect_error();
+$koneksi = mysqli_connect($namaServer, $username, $password, $database);
+
+//cek koneksi
+
+if(!$koneksi){
+	die("Koneksi Gagal : ".mysql_connect_error());
 }
- 
+
+
 ?>
