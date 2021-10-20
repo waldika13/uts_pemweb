@@ -2,7 +2,7 @@
 
 $namaServer = "remotemysql.com";
 $username = "3amzmAEgGC";
-$password = "Dm1100ZUkT";
+$password = "wQuVbo9Qpk";
 $database = "3amzmAEgGC";
 
 //Membuat koneksi
