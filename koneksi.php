@@ -13,7 +13,9 @@ $koneksi = mysqli_connect($namaServer, $username, $password, $database);
 
 if(!$koneksi){
 	die("Koneksi Gagal : ".mysql_connect_error());
-}
+} else {
+	Yap database berhasil
+}	
 
 
 ?>
