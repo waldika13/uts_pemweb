@@ -1,9 +1,9 @@
 <?php 
 
-$namaServer = "localhost";
-$username = "root";
-$password = "";
-$database = "portfolio";
+$namaServer = "remotemysql.com";
+$username = "3amzmAEgGC";
+$password = "Dm1100ZUkT";
+$database = "3amzmAEgGC";
 
 //Membuat koneksi
 
